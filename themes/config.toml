@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
 languageCode = "en-us"
-title = "Lorna |Blog"
+title = "lornamariak"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
@@ -113,17 +113,17 @@ content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non
 ############################# social site ########################
 
 [[params.social]]
-title = "twitter"
+title = "Twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
 link = "https://twitter.com/lornamariak"
 
 
 [[params.social]]
-title = "github"
+title = "Github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
 link = "https://github.com/lornamariak"
 
 [[params.social]]
-title = "linkedin"
+title = "Linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://www.linkedin.com/in/lornamaria/"
