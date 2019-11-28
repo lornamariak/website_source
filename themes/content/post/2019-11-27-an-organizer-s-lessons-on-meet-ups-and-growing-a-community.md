@@ -4,8 +4,8 @@ author: Lorna Maria
 date: '2019-11-27'
 image: images/featured-post/post-1.jpg
 draft: no
-categories: [Learning]
-tags: [Meet-ups]
+categories: [Life Lessons]
+tags: [Life Lessons]
 type: post
 ---
 ### Background

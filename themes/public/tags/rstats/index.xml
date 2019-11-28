@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rstats on lornamariak</title>
+    <link>/tags/rstats/</link>
+    <description>Recent content in Rstats on lornamariak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rstats/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploring Sentiment Analysis</title>
+      <link>/post/exploring-sentiment-analysis/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/exploring-sentiment-analysis/</guid>
+      <description>Introduction One of the applications of text mining is sentiment analysis.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Twitter for Text mining in R</title>
+      <link>/post/setting-up-twitter-for-text-mining-in-r/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/setting-up-twitter-for-text-mining-in-r/</guid>
+      <description>Introduction Over the years, social media has become a hot spot for data mining.</description>
+    </item>
+    
+    <item>
+      <title>Writing your first Text Mining Script with R</title>
+      <link>/post/writing-your-first-text-mining-script-with-r/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/writing-your-first-text-mining-script-with-r/</guid>
+      <description>Introduction One of the reasons data science has become popular is because of it’s ability to reveal so much information on large data sets in a split second or just a query.</description>
+    </item>
+    
+  </channel>
+</rss>

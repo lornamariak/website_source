@@ -6,18 +6,63 @@
     <description>Recent content in Posts on lornamariak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>test post</title>
-      <link>/post/test-post/</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Exploring Sentiment Analysis</title>
+      <link>/post/exploring-sentiment-analysis/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/test-post/</guid>
-      <description></description>
+      <guid>/post/exploring-sentiment-analysis/</guid>
+      <description>Introduction One of the applications of text mining is sentiment analysis.</description>
+    </item>
+    
+    <item>
+      <title>My 2018 Review;Learning with life</title>
+      <link>/post/2019-11-28-a-2018-review/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-11-28-a-2018-review/</guid>
+      <description>I don’t see a utopia anywhere for me. ~ Bozoma Saint John</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Twitter for Text mining in R</title>
+      <link>/post/setting-up-twitter-for-text-mining-in-r/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/setting-up-twitter-for-text-mining-in-r/</guid>
+      <description>Introduction Over the years, social media has become a hot spot for data mining.</description>
+    </item>
+    
+    <item>
+      <title>Writing your first Text Mining Script with R</title>
+      <link>/post/writing-your-first-text-mining-script-with-r/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/writing-your-first-text-mining-script-with-r/</guid>
+      <description>Introduction One of the reasons data science has become popular is because of it’s ability to reveal so much information on large data sets in a split second or just a query.</description>
+    </item>
+    
+    <item>
+      <title>An organizer&#39;s lessons on meet-ups and growing a community</title>
+      <link>/post/2019-11-27-an-organizer-s-lessons-on-meet-ups-and-growing-a-community/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-11-27-an-organizer-s-lessons-on-meet-ups-and-growing-a-community/</guid>
+      <description>Background When starting a community we usually have this long vision of seeing it evolve into a huge impactful part of the domain it belongs to.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2019-11-26-test-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-11-26-test-post/</guid>
+      <description>Ease your way into new topics with a learning plan.</description>
     </item>
     
   </channel>

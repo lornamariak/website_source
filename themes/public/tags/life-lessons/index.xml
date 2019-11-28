@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life Lessons on lornamariak</title>
+    <link>/tags/life-lessons/</link>
+    <description>Recent content in Life Lessons on lornamariak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/life-lessons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My 2018 Review;Learning with life</title>
+      <link>/post/2019-11-28-a-2018-review/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-11-28-a-2018-review/</guid>
+      <description>I don’t see a utopia anywhere for me. ~ Bozoma Saint John</description>
+    </item>
+    
+    <item>
+      <title>An organizer&#39;s lessons on meet-ups and growing a community</title>
+      <link>/post/2019-11-27-an-organizer-s-lessons-on-meet-ups-and-growing-a-community/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-11-27-an-organizer-s-lessons-on-meet-ups-and-growing-a-community/</guid>
+      <description>Background When starting a community we usually have this long vision of seeing it evolve into a huge impactful part of the domain it belongs to.</description>
+    </item>
+    
+  </channel>
+</rss>
