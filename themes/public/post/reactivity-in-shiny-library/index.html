@@ -101,151 +101,174 @@
 </header>
 <!-- /navigation -->
 
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/data-science"
+          class="text-primary">Data science</a>
+        
+        <h2>Reactivity in Shiny library</h2>
+        <div class="mb-3">
+          <span>By Lorna Maria</span>
           
-          
-          <div class="col-md-6 mb-4">
-            <article class="card">
-              
-              <div class="card-body px-0">
-                
-                <a href="/post/2019-11-26-test-post/" class="h5 d-block my-3"></a>
-                <div class="mb-3">
-                  <span>By Lorna Maria</span>
-                  
-                  <span class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>01 January 0001</span>
-                  
-                </div>
-                <p class="card-text">Ease your way into new topics with a learning plan.</p>
-                <a href="/post/2019-11-26-test-post/" class="btn btn-outline-primary">read more</a>
-              </div>
-            </article>
-          </div>
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>28 November 2019</span>
           
         </div>
-      </div>
+        
+        <img src="/images/featured-post/post-1.jpg" class="img-fluid w-100 mb-4" alt="Reactivity in Shiny library">
+        
+        <div class="content mb-5">
+          
+
+<h4 id="introduction">Introduction</h4>
+
+<p>One of the things that makes shiny apps interactive is reactivity. In the simplest of terms <strong>reactivity/reactive programming</strong> is the ability of a program to compute outputs from a given set of user inputs. The ability of a shiny app to handle reactivity makes a two-way communication between the user and the existing information.
+Reactivity is applied in cases such as performing calculations, data manipulation, the collection of user information among other scenarios.
+As a beginner setting out to build shiny apps, having the basic knowledge to handle reactivity will help you go a long way to exploring different use cases of shiny apps.</p>
+
+<hr>
+
+<h4 id="let-s-get-started">Let’s get started</h4>
+
+<p>The idea of reactivity will not occur to one until the error message below.
+This error occurs when a reactive component is placed inside a non reactive function. The app will not load and will parse this error. Let’s us look at what a reactive function is and what it does.</p>
+
+<h5 id="reactive-components-of-a-shiny-app">Reactive Components of a shiny app</h5>
+
+<p>There are three major reactive components of a shiny app:
+<strong>Reactive Inputs</strong>
+A reactive input is defined as an input that a user provides through the browser interface. For example when a user fills a form,selects an item or clicks a button. These actions will trigger values to be set form the reactive inputs.Text input and Add button are reactive inputs.
+<strong>Reactive Outputs</strong>
+A reactive output is defined as program provided output in the browser interface. For example a graph, a map, a plot or a table of values.Table of values as a reactive output.
+<strong>Reactive Expressions</strong>
+A reactive expression is defined as one that transforms the reactive inputs to reactive outputs.These perform computations before sending reactive outputs.These will also mask slow operations like reading data from a server, making network calls among other scenarios.We shall see one in an example.</p>
+
+<hr>
+
+<p>Example 1
+Let’s start with a simple example of adding up two integers and returning their sum in a shiny app.</p>
+
+<pre><code>ui
+titlePanel(&quot;Sum of two integers&quot;),
+  
+  #number input form
+  sidebarLayout(
+    sidebarPanel(
+      textInput(&quot;one&quot;, &quot;First Integer&quot;),
+      textInput(&quot;two&quot;, &quot;Second Integer&quot;),
+      actionButton(&quot;add&quot;, &quot;Add&quot;)
+    ),
+    
+    # Show result
+    mainPanel(
       
-      <div class="col-lg-4">
-        
-        <div class="widget">
-          
-          <h4 class="widget-title">About Me</h4>
-          
-          <img src="/images/author.png" alt=""
-            class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-          
-          <p>lorna maria is thje author of limitless blog.
-consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-          <a href="/about/about/" class="btn btn-outline-primary">Know More</a>
-          
-        </div>
-        
-        <div class="widget">
-          <h4 class="widget-title">Category</h4>
-          <ul class="list-unstyled">
-            <li><a
-                href="/categories/data-science">Data science</a>
-            </li>
-            <li><a
-                href="/categories/life-lessons">Life lessons</a>
-            </li>
-            <li><a
-                href="/categories/productivity">Productivity</a>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="widget">
-          <h4 class="widget-title">Social</h4>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-                href="/tags/learning">Learning</a></li>
-            <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-                href="/tags/life-lessons">Life lessons</a></li>
-            <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-                href="/tags/rstats">Rstats</a></li>
-          </ul>
-        </div>
-        
-        <div class="widget">
-          <h4 class="widget-title">Social</h4>
-          <ul class="list-inline social-links">
-            
-            <li class="list-inline-item"><a href="https://twitter.com/lornamariak"><i class="ti-twitter-alt"></i></a></li>
-            
-            <li class="list-inline-item"><a href="https://github.com/lornamariak"><i class="ti-github"></i></a></li>
-            
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/lornamaria/"><i class="ti-linkedin"></i></a></li>
-            
-          </ul>
-        </div>
-        
-        <div class="widget">
-          <img src="/images/promotion.png" alt="" class="img-fluid">
-        </div>
-      </div>
+   textOutput(&quot;sum&quot;)
       
+    )
+server
+server &lt;- function(input,output,session) {
+#observe the add click and perform a reactive expression
+  observeEvent( input$add,{
+    x &lt;- as.numeric(input$one)
+    y &lt;- as.numeric(input$two)
+    #reactive expression
+    n &lt;- x+y
+    output$sum &lt;- renderPrint(n)
+  }
+    
+  )
+</code></pre>
 
+<p>Example 2
+Now let’s build something a bit complex while handling reactivity.</p>
+
+<pre><code>ui
+fields &lt;- c(&quot;name&quot;,&quot;age&quot;,&quot;height&quot;,&quot;weight&quot;)
+ui &lt;- fluidPage(
+   
+   # Application title
+   titlePanel(&quot;Health card&quot;),
+   
+   # Sidebar with reactive inputs
+   sidebarLayout(
+      sidebarPanel(
+         textInput(&quot;name&quot;,&quot;Your Name&quot;),
+        selectInput(&quot;age&quot;,&quot;Age bracket&quot;,c(&quot;18-25&quot;,&quot;25-45&quot;,&quot;above 45&quot;)),
+         textInput(&quot;weight&quot;,&quot;Please enter your weight in kg&quot;),
+         textInput(&quot;height&quot;,&quot;Please enter your height in cm&quot;),
+         actionButton(&quot;save&quot;,&quot;Add&quot;)
+        
+      ),
       
-      <div class="col-12 mt-5">
-        
+      # a table of reactive outputs
+      mainPanel(
+         mainPanel(
+            
+            DT::dataTableOutput(&quot;responses&quot;, width = 500), tags$hr()
+            
+         )
+      )
+   )
+)
+server
+# Define server logic 
+   server &lt;- function(input, output,session) {
+      
+#create a data frame called responses
+      saveData &lt;- function(data) {
+         data &lt;- as.data.frame(t(data))
+         if (exists(&quot;responses&quot;)) {
+            responses &lt;&lt;- rbind(responses, data)
+         } else {
+            responses &lt;&lt;- data
+         }
+      }
+      
+      loadData &lt;- function() {
+         if (exists(&quot;responses&quot;)) {
+            responses
+         }
+      }
+      
+      
+      # Whenever a field is filled, aggregate all form data
+      #formData is a reactive function
+      formData &lt;- reactive({
+         data &lt;- sapply(fields, function(x) input[[x]])
+         data
+      })
+      
+      # When the Save button is clicked, save the form data
+      observeEvent(input$save, {
+         saveData(formData())
+      })
+      
+      # Show the previous responses
+      # (update with current response when save is clicked)
+      output$responses &lt;- DT::renderDataTable({
+         input$save
+         loadData()
+      })     
+   }
+</code></pre>
 
-<ul class="pagination">
-    
-    <li class="page-item">
-        <a href="/post/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-    </li>
-    
-    <li class="page-item">
-    <a href="/post/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item"><a class="page-link" href="/post/">1</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item active"><a class="page-link" href="/post/page/2/">2</a></li>
-    
-    
-    <li class="page-item disabled">
-    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-    </li>
-    
-    <li class="page-item">
-        <a href="/post/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-    </li>
-    
-</ul>
+<p>Result</p>
 
+<p>When project is run.</p>
 
+<p>There you go! Now that you can handle the basics, please go ahead and try it out.</p>
+
+        </div>
+
+        
+        
       </div>
     </div>
   </div>
 </section>
-
 
 
 

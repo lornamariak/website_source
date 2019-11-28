@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Reactivity in Shiny library</title>
+      <link>/post/reactivity-in-shiny-library/</link>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/reactivity-in-shiny-library/</guid>
+      <description>Introduction One of the things that makes shiny apps interactive is reactivity.</description>
+    </item>
+    
+    <item>
       <title>Setting Up Twitter for Text mining in R</title>
       <link>/post/setting-up-twitter-for-text-mining-in-r/</link>
       <pubDate>Thu, 28 Nov 2019 00:00:00 +0000</pubDate>
