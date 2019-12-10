@@ -81,7 +81,7 @@ home = "Home"
 description = "This is meta description"
 author = "Lorna Maria"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "UA-154356124-1"
 
 # Contact Information
 mobile = 2345786554
