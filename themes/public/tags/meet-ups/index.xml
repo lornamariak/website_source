@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meet-ups on lornamariak</title>
+    <link>/tags/meet-ups/</link>
+    <description>Recent content in Meet-ups on lornamariak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/meet-ups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An organizer&#39;s lessons on meet-ups and growing a community</title>
+      <link>/post/2019-11-27-an-organizer-s-lessons-on-meet-ups-and-growing-a-community/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-11-27-an-organizer-s-lessons-on-meet-ups-and-growing-a-community/</guid>
+      <description>Background When starting a community we usually have this long vision of seeing it evolve into a huge impactful part of the domain it belongs to.</description>
+    </item>
+    
+  </channel>
+</rss>

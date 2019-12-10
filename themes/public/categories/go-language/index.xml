@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go Language on lornamariak</title>
+    <link>/categories/go-language/</link>
+    <description>Recent content in Go Language on lornamariak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="/categories/go-language/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ease your way into new topics with a learning plan.</title>
+      <link>/blog/learningplan/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>/blog/learningplan/</guid>
+      <description>One of my goals for the second half of the year is to help as many people to get a grip on their learning goals for 2019.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on lornamariak</title>
+    <link>/categories/learning/</link>
+    <description>Recent content in Learning on lornamariak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="/categories/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ease your way into new topics with a learning plan.</title>
+      <link>/post/2019-11-26-test-post/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>/post/2019-11-26-test-post/</guid>
+      <description>lets see if this works</description>
+    </item>
+    
+  </channel>
+</rss>

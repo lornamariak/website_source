@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>lornamariak</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Lorna Maria">
+  <meta name="generator" content="Hugo 0.59.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="/images/favicon.png " type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom">
+      <a class="navbar-brand mobile-view" href="/"><img class="img-fluid"
+          src="/images/logo.png" alt="lornamariak"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/lornamariak"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/lornamariak"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/lornamaria/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="/"><img class="img-fluid"
+            src="/images/logo.png" alt="lornamariak"></a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"> Home </a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Posts</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/about/about">About</a>
+          </li>
+          
+          
+        </ul>
+
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/data-science"
+          class="text-primary">Data science</a>
+        
+        <h2>Reactivity in Shiny library</h2>
+        <div class="mb-3">
+          <span>By Lorna Maria</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>06 March 2018</span>
+          
+        </div>
+        
+        <img src="/images/post/reactivity.jpeg" class="img-fluid w-100 mb-4" alt="Reactivity in Shiny library">
+        
+        <div class="content mb-5">
+          
+
+<p>Published in <a href="https://towardsdatascience.com/">Towards Data Science</a></p>
+
+<h4 id="introduction">Introduction</h4>
+
+<p>One of the things that makes shiny apps interactive is reactivity. In the simplest of terms <strong>reactivity/reactive programming</strong> is the ability of a program to compute outputs from a given set of user inputs. The ability of a shiny app to handle reactivity makes a two-way communication between the user and the existing information.
+Reactivity is applied in cases such as performing calculations, data manipulation, the collection of user information among other scenarios.
+As a beginner setting out to build shiny apps, having the basic knowledge to handle reactivity will help you go a long way to exploring different use cases of shiny apps.</p>
+
+<hr>
+
+<h4 id="let-s-get-started">Let’s get started</h4>
+
+<p>The idea of reactivity will not occur to one until the error message below.</p>
+
+<p><img src="/images/post/reactiveimg1.png" alt="Error Message" /></p>
+
+<p>This error occurs when a reactive component is placed inside a non reactive function. The app will not load and will parse this error. Let’s us look at what a reactive function is and what it does.</p>
+
+<h5 id="reactive-components-of-a-shiny-app">Reactive Components of a shiny app</h5>
+
+<p>There are three major reactive components of a shiny app:</p>
+
+<p><strong>Reactive Inputs</strong>:
+A reactive input is defined as an input that a user provides through the browser interface. For example when a user fills a form,selects an item or clicks a button. These actions will trigger values to be set form the reactive inputs.</p>
+
+<p><img src="/images/post/reactiveimg2.png" alt="Text input and Add button are reactive inputs" /></p>
+
+<p><strong>Reactive Outputs</strong>:
+A reactive output is defined as program provided output in the browser interface. For example a graph, a map, a plot or a table of values.Table of values as a reactive output.</p>
+
+<p><img src="/images/post/reactiveimg3.png" alt="Table of values as a reactive output" /></p>
+
+<p><strong>Reactive Expressions</strong>:
+A reactive expression is defined as one that transforms the reactive inputs to reactive outputs.These perform computations before sending reactive outputs.These will also mask slow operations like reading data from a server, making network calls among other scenarios.We shall see one in an example.</p>
+
+<hr>
+
+<h4 id="example-1">Example 1</h4>
+
+<p>Let’s start with a simple example of adding up two integers and returning their sum in a shiny app.</p>
+
+<pre><code>ui
+titlePanel(&quot;Sum of two integers&quot;),
+  
+  #number input form
+  sidebarLayout(
+    sidebarPanel(
+      textInput(&quot;one&quot;, &quot;First Integer&quot;),
+      textInput(&quot;two&quot;, &quot;Second Integer&quot;),
+      actionButton(&quot;add&quot;, &quot;Add&quot;)
+    ),
+    
+    # Show result
+    mainPanel(
+      
+   textOutput(&quot;sum&quot;)
+      
+    )
+server
+server &lt;- function(input,output,session) {
+#observe the add click and perform a reactive expression
+  observeEvent( input$add,{
+    x &lt;- as.numeric(input$one)
+    y &lt;- as.numeric(input$two)
+    #reactive expression
+    n &lt;- x+y
+    output$sum &lt;- renderPrint(n)
+  }
+    
+  )
+</code></pre>
+
+<p><img src="/images/post/reactiveimg4.png" alt="Example" /></p>
+
+<h4 id="example-2">Example 2</h4>
+
+<p>Now let’s build something a bit complex while handling reactivity.</p>
+
+<pre><code>ui
+fields &lt;- c(&quot;name&quot;,&quot;age&quot;,&quot;height&quot;,&quot;weight&quot;)
+ui &lt;- fluidPage(
+   
+   # Application title
+   titlePanel(&quot;Health card&quot;),
+   
+   # Sidebar with reactive inputs
+   sidebarLayout(
+      sidebarPanel(
+         textInput(&quot;name&quot;,&quot;Your Name&quot;),
+        selectInput(&quot;age&quot;,&quot;Age bracket&quot;,c(&quot;18-25&quot;,&quot;25-45&quot;,&quot;above 45&quot;)),
+         textInput(&quot;weight&quot;,&quot;Please enter your weight in kg&quot;),
+         textInput(&quot;height&quot;,&quot;Please enter your height in cm&quot;),
+         actionButton(&quot;save&quot;,&quot;Add&quot;)
+        
+      ),
+      
+      # a table of reactive outputs
+      mainPanel(
+         mainPanel(
+            
+            DT::dataTableOutput(&quot;responses&quot;, width = 500), tags$hr()
+            
+         )
+      )
+   )
+)
+server
+# Define server logic 
+   server &lt;- function(input, output,session) {
+      
+#create a data frame called responses
+      saveData &lt;- function(data) {
+         data &lt;- as.data.frame(t(data))
+         if (exists(&quot;responses&quot;)) {
+            responses &lt;&lt;- rbind(responses, data)
+         } else {
+            responses &lt;&lt;- data
+         }
+      }
+      
+      loadData &lt;- function() {
+         if (exists(&quot;responses&quot;)) {
+            responses
+         }
+      }
+      
+      
+      # Whenever a field is filled, aggregate all form data
+      #formData is a reactive function
+      formData &lt;- reactive({
+         data &lt;- sapply(fields, function(x) input[[x]])
+         data
+      })
+      
+      # When the Save button is clicked, save the form data
+      observeEvent(input$save, {
+         saveData(formData())
+      })
+      
+      # Show the previous responses
+      # (update with current response when save is clicked)
+      output$responses &lt;- DT::renderDataTable({
+         input$save
+         loadData()
+      })     
+   }
+</code></pre>
+
+<p>Result
+<img src="/images/post/reactiveimg5.png" alt="When the project is run" /></p>
+
+<p>There you go! Now that you can handle the basics, please go ahead and try it out.</p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <a href="/"><img src="/images/logo.png" alt="lornamariak"></a>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark" href="tel:2345786554"><i
+                class="ti-mobile mr-3 text-primary"></i>2345786554</a></li>
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Around the Globe</li>
+          <li class="mb-3"><a class="text-dark" href="mailto:lornamariak@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>lornamariak@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/lornamariak">Twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/lornamariak">Github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/lornamaria/">Linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/data-science">Data science</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/life-lessons">Life lessons</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/productivity">Productivity</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="/blog">Posts</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="/about/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        Lorna Maria | <a href="https://themefisher.com">Themefisher</a> All Rights Reserved
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/venobox/venobox.min.js"></script>
+
+<script src="/plugins/search/fuse.min.js"></script>
+
+<script src="/plugins/search/mark.js"></script>
+
+<script src="/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'Your ID', 'auto');
+  ga('send', 'pageview');
+</script></body>
+</html>
