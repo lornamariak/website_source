@@ -1,20 +1,18 @@
 ---
 title: An organizer's lessons on meet-ups and growing a community
 author: Lorna Maria
-date: '2019-11-27'
-image: images/featured-post/post-1.jpg
+date: '2019-05-07'
+image: images/post/meetup.jpeg
 draft: no
 categories: [Life Lessons]
 tags: [Life Lessons]
-type: post
+type: blog 
 ---
+Photo Credit:[Christina Morillo](https://www.pexels.com/@divinetechygirl)
 ### Background
-
 When starting a community we usually have this long vision of seeing it evolve into a huge impactful part of the domain it belongs to. In my case, when I started running data ladies I focused majorly on developing the technical skills of women interested in data science but I soon realised that it grew into something consistent and I needed to scale into a full-blown data science community. Did I? my year [review](https://medium.com/@lornamariak/a-2018-review-learning-and-life-ffcc737dac52) can answer this!
 Community building involves technical and non-technical elements.
-
 <hr>
-
 ### Here are some of the lessons I learnt.
 
 ##### Core skills and codependency
@@ -38,10 +36,8 @@ Always give your sponsors and supporting people feedback and a thank you note.
 
 ##### Consistency and Visibility
 It is important to keep up with a pattern of events and if possible make a calendar and share with the community in advance. Be sure to also share your work especially on the meet-up social media or blog/website and urge your participants to share their growth too.
-Growth will highly depend on feedback and follow-up and you can use a number of creative tools to collect feedback other that forms. Check out Kahoot and mentimeter. This will show you areas to improve, topics to rerun among other metrics.
-
+Growth will highly depend on feedback and follow-up and you can use a number of creative tools to collect feedback other that forms. Check out [Kahoot](https://kahoot.com/) and [mentimeter](https://www.menti.com/). This will show you areas to improve, topics to rerun among other metrics.
 <hr>
-
-##### Reflection
-Looking back at all these lessons I learned, I wished I had more time to spend with my data ladies group and even work hard to grow it further. However, I have noticed that two groups in the same niche have sprung up; R Ladies Kampala and Women in Machine learning and data science Kampala chapter.
+### Reflection
+Looking back at all these lessons I learned, I wished I had more time to spend with my data ladies group and even work hard to grow it further. However, I have noticed that two groups in the same niche have sprung up; [R Ladies Kampala](https://mobile.twitter.com/Rladieskampala) and [Women in Machine learning and data science Kampala](https://mobile.twitter.com/WiMLDS_Kampala) chapter.
 I hope this article enlightens one thing or two for anyone looking at starting a learning group/community online or offline.

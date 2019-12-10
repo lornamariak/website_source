@@ -1,10 +1,10 @@
 ---
 categories:
 - Productivity
-date: "2019-10-29T10:07:47+06:00"
+date: "2019-06-30"
 description: this is meta description
 draft: false
-image: images/featured-post/post-1.jpg
+image: images/featured-post/learn.png
 tags:
 - Learning
 title: Ease your way into new topics with a learning plan.

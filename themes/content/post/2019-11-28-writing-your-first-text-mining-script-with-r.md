@@ -1,16 +1,17 @@
 ---
 title: "Writing your first Text Mining Script with R"
 author: Lorna Maria
-date: '2019-11-28'
-slug: writing-your-first-text-mining-script-with-r
+date: '2018-01-11'
+slug: text-mining-script-with-r
 categories: [Data Science]
 tags: [Rstats]
-image: images/featured-post/post-1.jpg
+image: images/post/textmine.jpg
 draft: no
 type: post
 ---
-#### Introduction
+Published in [Towards Data Science](https://towardsdatascience.com/)
 
+#### Introduction
 One of the reasons data science has become popular is because of it’s ability to reveal so much information on large data sets in a split second or just a query.
 Think about it deeply ,on a daily basis how much information in form of text do we give out? All this information contains our sentiments,our opinions ,our plans ,pieces of advice ,our favourite phrase among other things.
 However revealing each of those this can seem like finding a needle from a haystack at a glance ,until we use techniques like text mining/analysis .

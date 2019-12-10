@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on lornamariak</title>
+    <title>Blogs on lornamariak</title>
     <link>/blog/</link>
-    <description>Recent content in blog on lornamariak</description>
+    <description>Recent content in Blogs on lornamariak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,20 @@
     <item>
       <title>Ease your way into new topics with a learning plan.</title>
       <link>/blog/learningplan/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/blog/learningplan/</guid>
       <description>One of my goals for the second half of the year is to help as many people to get a grip on their learning goals for 2019.</description>
+    </item>
+    
+    <item>
+      <title>An organizer&#39;s lessons on meet-ups and growing a community</title>
+      <link>/blog/2019-11-27-an-organizer-s-lessons-on-meet-ups-and-growing-a-community/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-11-27-an-organizer-s-lessons-on-meet-ups-and-growing-a-community/</guid>
+      <description>Photo Credit:Christina Morillo
+Background When starting a community we usually have this long vision of seeing it evolve into a huge impactful part of the domain it belongs to.</description>
     </item>
     
   </channel>

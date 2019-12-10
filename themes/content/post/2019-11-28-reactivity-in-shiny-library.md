@@ -1,14 +1,15 @@
 ---
 title: Reactivity in Shiny library
 author: Lorna Maria
-date: '2019-11-28'
+date: '2018-03-06'
 slug: reactivity-in-shiny-library
 categories: [Data Science]
 tags: [Rstats]
-image: images/featured-post/post-1.jpg
+image: images/post/reactivity.jpeg
 draft: no
 type: post
 ---
+Published in [Towards Data Science](https://towardsdatascience.com/)
 #### Introduction
 One of the things that makes shiny apps interactive is reactivity. In the simplest of terms **reactivity/reactive programming** is the ability of a program to compute outputs from a given set of user inputs. The ability of a shiny app to handle reactivity makes a two-way communication between the user and the existing information.
 Reactivity is applied in cases such as performing calculations, data manipulation, the collection of user information among other scenarios.
@@ -18,20 +19,29 @@ As a beginner setting out to build shiny apps, having the basic knowledge to han
 
 #### Let’s get started
 The idea of reactivity will not occur to one until the error message below.
+
+![Error Message](/images/post/reactiveimg1.png)
+
 This error occurs when a reactive component is placed inside a non reactive function. The app will not load and will parse this error. Let’s us look at what a reactive function is and what it does.
 
 ##### Reactive Components of a shiny app
 There are three major reactive components of a shiny app:
-**Reactive Inputs**
-A reactive input is defined as an input that a user provides through the browser interface. For example when a user fills a form,selects an item or clicks a button. These actions will trigger values to be set form the reactive inputs.Text input and Add button are reactive inputs.
-**Reactive Outputs**
+
+**Reactive Inputs**:
+A reactive input is defined as an input that a user provides through the browser interface. For example when a user fills a form,selects an item or clicks a button. These actions will trigger values to be set form the reactive inputs.
+
+![Text input and Add button are reactive inputs](/images/post/reactiveimg2.png)
+
+**Reactive Outputs**:
 A reactive output is defined as program provided output in the browser interface. For example a graph, a map, a plot or a table of values.Table of values as a reactive output.
-**Reactive Expressions**
+
+![Table of values as a reactive output](/images/post/reactiveimg3.png)
+
+**Reactive Expressions**:
 A reactive expression is defined as one that transforms the reactive inputs to reactive outputs.These perform computations before sending reactive outputs.These will also mask slow operations like reading data from a server, making network calls among other scenarios.We shall see one in an example.
 
 <hr>
-
-Example 1
+#### Example 1
 Let’s start with a simple example of adding up two integers and returning their sum in a shiny app.
 ```
 ui
@@ -64,7 +74,10 @@ server <- function(input,output,session) {
     
   )
 ```
-Example 2
+
+![Example](/images/post/reactiveimg4.png)
+
+#### Example 2
 Now let’s build something a bit complex while handling reactivity.
 ```
 ui
@@ -137,7 +150,6 @@ server
    }
 ```
 Result
-
-When project is run.
+![When the project is run](/images/post/reactiveimg5.png)
 
 There you go! Now that you can handle the basics, please go ahead and try it out.

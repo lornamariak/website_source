@@ -1,14 +1,16 @@
 ---
 title: Setting Up Twitter for Text mining in R
 author: Lorna Maria
-date: '2019-11-28'
+date: '2019-02-05'
 slug: setting-up-twitter-for-text-mining-in-r
 categories: [Data Science]
 tags: [Rstats]
-image: images/featured-post/post-1.jpg
+image: images/post/settwitter.jpeg
 draft: no
 type: post
 ---
+Published in [Towards Data Science](https://towardsdatascience.com/)
+
 #### Introduction
 Over the years, social media has become a hot spot for data mining. Every day there are always topics trending, campaigns running and groups of people discussing different global, continental or national issues.This is a major target to harness data.
 In this article, we focus on Twitter as a centre of opinions and sentiments across the globe.We set out to mine text from the millions of tweets that go out every day to be able to understand what is going on all even beyond our own timelines.
@@ -16,6 +18,11 @@ In this article, we focus on Twitter as a centre of opinions and sentiments acro
 #### Twitter API Set Up
 To use the twitter API we need to have a twitter account.
 Sign Up via (https://twitter.com) ,go to (https://apps.twitter.com/) to access twitter developer options.
+![Create a New App](/images/post/settwitterimg1.png)
+
+Create a new application
+
+![Create a New App](/images/post/settwitterimg2.png)
 
 **Application Name**: Give your app a unique name. if it is taken you will be notified to change.
 
@@ -25,6 +32,7 @@ Sign Up via (https://twitter.com) ,go to (https://apps.twitter.com/) to access t
 
 ###### App Credentials
 These are very important to help one log into the application.There are four major credentials used in this set up.
+
 **Consumer key** : This key identifies the client to the application.
 
 **Consumer Secret**: This is the clients password that is used with server authentication.
@@ -33,6 +41,10 @@ These are very important to help one log into the application.There are four maj
 
 **Access Secret**:This is sent with the access token as a password.
 They are obtained this way.
+
+![App credentials](/images/post/settwitterimg3.png)
+![Generating Tokens](/images/post/settwitterimg4.png)
+![App Tokens](/images/post/settwitterimg5.png)
 
 **Note**:These credentials are meant to be kept private,that is why i shaded through mine.
 Voila! We have an API set up
