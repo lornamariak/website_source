@@ -1,13 +1,13 @@
 ---
-date: "2019-10-29T13:49:23+06:00"
+date: "2019-01-12"
 description: this is meta description
 draft: false
 image: images/author.png
 title: About Me
 type: about
 ---
-lorna maria is thje author of limitless blog.
+I am a data analyst and content creator.
+I split my time between building data science projects in and out of work and creating content on this blog and my [Youtube channel](youtube/lornamaria).
+My content ranges from data science tutorials,productivity hacks and general life topics that interest the present day millenial.
 
-consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+*Interests are data, research on AI and bias, meaningful conversations and cross culture learning.*
