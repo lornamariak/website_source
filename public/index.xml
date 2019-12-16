@@ -31,16 +31,6 @@ Background When starting a community we usually have this long vision of seeing 
     </item>
     
     <item>
-      <title>Setting Up Twitter for Text mining in R</title>
-      <link>/post/setting-up-twitter-for-text-mining-in-r/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/setting-up-twitter-for-text-mining-in-r/</guid>
-      <description>Published in Towards Data Science
-Introduction Over the years, social media has become a hot spot for data mining.</description>
-    </item>
-    
-    <item>
       <title>About Me</title>
       <link>/about/about/</link>
       <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
@@ -76,6 +66,16 @@ Introduction One of the applications of text mining is sentiment analysis.</desc
       <guid>/post/reactivity-in-shiny-library/</guid>
       <description>Published in Towards Data Science
 Introduction One of the things that makes shiny apps interactive is reactivity.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Twitter for Text mining in R</title>
+      <link>/post/setting-up-twitter-for-text-mining-in-r/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/setting-up-twitter-for-text-mining-in-r/</guid>
+      <description>Published in Towards Data Science
+Introduction Over the years, social media has become a hot spot for data mining.</description>
     </item>
     
     <item>

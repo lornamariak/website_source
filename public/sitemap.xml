@@ -63,26 +63,6 @@
   </url>
   
   <url>
-    <loc>/categories/data-science/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/rstats/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/setting-up-twitter-for-text-mining-in-r/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/about/about/</loc>
     <lastmod>2019-01-12T00:00:00+00:00</lastmod>
   </url>
@@ -98,13 +78,33 @@
   </url>
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/data-science/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/exploring-sentiment-analysis/</loc>
+    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rstats/</loc>
     <lastmod>2018-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/reactivity-in-shiny-library/</loc>
     <lastmod>2018-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/setting-up-twitter-for-text-mining-in-r/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>

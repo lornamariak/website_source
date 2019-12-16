@@ -6,20 +6,10 @@
     <description>Recent content in Posts on lornamariak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Setting Up Twitter for Text mining in R</title>
-      <link>/post/setting-up-twitter-for-text-mining-in-r/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/setting-up-twitter-for-text-mining-in-r/</guid>
-      <description>Published in Towards Data Science
-Introduction Over the years, social media has become a hot spot for data mining.</description>
-    </item>
     
     <item>
       <title>My 2018 Review;Learning with life</title>
@@ -48,6 +38,16 @@ Introduction One of the applications of text mining is sentiment analysis.</desc
       <guid>/post/reactivity-in-shiny-library/</guid>
       <description>Published in Towards Data Science
 Introduction One of the things that makes shiny apps interactive is reactivity.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Twitter for Text mining in R</title>
+      <link>/post/setting-up-twitter-for-text-mining-in-r/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/setting-up-twitter-for-text-mining-in-r/</guid>
+      <description>Published in Towards Data Science
+Introduction Over the years, social media has become a hot spot for data mining.</description>
     </item>
     
     <item>
