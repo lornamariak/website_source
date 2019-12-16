@@ -1,7 +1,7 @@
 ---
 title: Setting Up Twitter for Text mining in R
 author: Lorna Maria
-date: '2019-02-05'
+date: '2018-02-05'
 slug: setting-up-twitter-for-text-mining-in-r
 categories: [Data Science]
 tags: [Rstats]
