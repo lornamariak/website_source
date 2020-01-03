@@ -8,7 +8,7 @@ image: images/featured-post/learn.png
 tags:
 - Learning
 title: Ease your way into new topics with a learning plan.
-type: featured
+type: post
 ---
 
 One of my goals for the second half of the year is to help as many people to get a grip on their learning goals for 2019. Throughout my YouTube series Learning with Lorna, I have shared the first step to the learning process, making a learning plan.
