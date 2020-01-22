@@ -7,9 +7,9 @@ categories: [Productivity]
 tags: [Productivity]
 image: images/post/productivitypost.png
 draft: no
-type: featured 
+type: post
 ---
-*I can't believe I survived the first work week of January…*🥳
+*I can't believe I survived the first work week of January…* 🥳
 
 As we transition from party December to work January, I am having a hard time getting back to my usual productivity levels. Of course, it takes time and that is why I am writing this article to remind us of how we hacked productivity last year.
 
