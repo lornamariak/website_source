@@ -6,7 +6,7 @@ slug: procrastination
 categories: [Productivity]
 tags: [Productivity]
 image: images/post/procrastinationspirit.png
-draft: yes
+draft: no
 type: featured 
 ---
 *An honest conversation with my procrastination "spirit"* 🐸☕️
