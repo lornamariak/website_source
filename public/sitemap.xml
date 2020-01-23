@@ -4,32 +4,37 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/productivity/</loc>
-    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/productivity/</loc>
-    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/procrastination/</loc>
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,12 +43,12 @@
   </url>
   
   <url>
-    <loc>/categories/life-lessons/</loc>
+    <loc>/tags/life-lessons/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/life-lessons/</loc>
+    <loc>/categories/life-lessons/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url>
   

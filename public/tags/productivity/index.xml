@@ -6,10 +6,20 @@
     <description>Recent content in Productivity on lornamariak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why do I procrastinate?</title>
+      <link>/post/procrastination/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/procrastination/</guid>
+      <description>An honest conversation with my procrastination &amp;ldquo;spirit&amp;rdquo; 🐸☕️
+Why does procrastination feel good at the moment but awful in the end?</description>
+    </item>
     
     <item>
       <title>Top 5 Productivity Hacks for 2020</title>
@@ -17,7 +27,7 @@
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/productivity-hacks/</guid>
-      <description>*I can&amp;rsquo;t believe I survived the first work week of January…*🥳</description>
+      <description>I can&amp;rsquo;t believe I survived the first work week of January… 🥳</description>
     </item>
     
   </channel>
