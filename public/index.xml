@@ -6,10 +6,19 @@
     <description>Recent content on lornamariak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building a personal data science project</title>
+      <link>/post/building-a-personal-data-science-project/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/building-a-personal-data-science-project/</guid>
+      <description>A beginner’s guide to building a portfolio of your little data science projects</description>
+    </item>
     
     <item>
       <title>Why do I procrastinate?</title>

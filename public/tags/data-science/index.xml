@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data science on lornamariak</title>
+    <link>/tags/data-science/</link>
+    <description>Recent content in Data science on lornamariak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a personal data science project</title>
+      <link>/post/building-a-personal-data-science-project/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/building-a-personal-data-science-project/</guid>
+      <description>A beginner’s guide to building a portfolio of your little data science projects</description>
+    </item>
+    
+  </channel>
+</rss>

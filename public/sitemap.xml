@@ -3,18 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/building-a-personal-data-science-project/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/data-science/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/data-science/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,11 +44,6 @@
   
   <url>
     <loc>/tags/productivity/</loc>
-    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-01-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,12 +58,12 @@
   </url>
   
   <url>
-    <loc>/tags/life-lessons/</loc>
+    <loc>/categories/life-lessons/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/life-lessons/</loc>
+    <loc>/tags/life-lessons/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -100,11 +115,6 @@
   <url>
     <loc>/post/2019-11-28-a-2018-review/</loc>
     <lastmod>2018-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/data-science/</loc>
-    <lastmod>2018-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>

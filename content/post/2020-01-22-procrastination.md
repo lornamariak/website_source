@@ -7,7 +7,7 @@ categories: [Productivity]
 tags: [Productivity]
 image: images/post/procrastinationspirit.png
 draft: no
-type: featured 
+type: post 
 ---
 *An honest conversation with my procrastination "spirit"* 🐸☕️
 
